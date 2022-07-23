@@ -1,0 +1,15 @@
+.fc-icon {
+    background-color: #2C3E50;
+}
+
+.flex-container2 {
+    justify-content: center;
+    width: 1000px;
+    padding-left: 120px;
+    margin-top: 30px;
+}
+
+.fc--button .fc-button .fc-button-primary {
+    opacity: 0;
+}
+

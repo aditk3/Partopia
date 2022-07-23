@@ -1,0 +1,74 @@
+.profile-button {
+  width: 103px;
+  height: 56px;
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.025em;
+  color: rgba(0, 0, 0, 0.6);
+  border: none;
+  background-color: #f1f7fa;
+}
+
+.profile-button:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.create-party-button {
+  background: #ff6b89;
+  border-radius: 10px;
+  width: 125px;
+  height: 59px;
+  align-items: center;
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  letter-spacing: 0.025em;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.create-party-button:hover {
+  opacity: 80%;
+}
+
+.logout-button {
+  width: 125px;
+  height: 59px;
+  background: #ffb732;
+  border-radius: 10px;
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.025em;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.logout-button:hover {
+  opacity: 80%;
+}
+
+.button {
+  width: 125px;
+  height: 59px;
+  border-radius: 10px;
+}
+

@@ -1,0 +1,107 @@
+.firstName,
+.lastName {
+  border: 1px solid #00b2b2;
+  box-sizing: border-box;
+  width: 336px;
+  height: 57px;
+  background: #fafafa;
+  border: 1px solid #00b2b2;
+  border-radius: 10px;
+  margin-top: 35px;
+}
+
+.signup-side {
+  margin-top: 65px;
+  font-family: "Molle", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 90px;
+  color: #00b2b2;
+  margin-bottom: -0.00000000006px;
+  margin-left: 23px;
+}
+
+.goback-button {
+  width: 101px;
+  height: 51px;
+  border: none;
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.025em;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.signUP-button {
+  height: 59px;
+  width: 110px;
+  border: none;
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.025em;
+  cursor: pointer;
+  color: #ffffff;
+  background: #00b2b2;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.goback-button:link {
+  text-decoration: none;
+}
+
+.goback-button:hover {
+  opacity: 80%;
+}
+
+.signUP-button:hover {
+  opacity: 80%;
+}
+
+.validations {
+  /* width: 167px; */
+  height: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0.025em;
+  color: #ff6b89;
+  /* visibility: hidden; */
+  margin-left: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.not-hidden{
+  visibility: visible;
+}
+
+
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.user-exists {
+  margin-top: 430px;
+}

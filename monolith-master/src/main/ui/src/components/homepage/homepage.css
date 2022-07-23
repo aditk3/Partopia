@@ -1,0 +1,127 @@
+.home {
+  position: absolute;
+  width: 395px;
+  height: 77px;
+  font-family: "Molle", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 90px;
+  text-align: center;
+  color: #ffb732;
+  cursor: pointer;
+}
+
+.signup {
+  width: 101px;
+  height: 51px;
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  opacity: 60%;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.025em;
+  background: #f1f7fa;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.parent {
+  /* margin-right: 1rem;
+    padding: 2rem 2rem; */
+  text-align: right;
+}
+
+.child {
+  display: inline-block;
+  padding-top: 1rem;
+  /* padding: 1rem 1rem; */
+}
+
+.login {
+  margin-right: 5rem;
+  width: 92px;
+  height: 59px;
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  align-items: center;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+}
+
+.loginbut {
+  width: 125px;
+  height: 59px;
+  background: #ffb732;
+  border-radius: 10px;
+  font-family: "Baloo 2";
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  cursor: pointer;
+  align-items: center;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+}
+
+.loginbut:hover {
+  opacity: 80%;
+}
+
+.signupbut {
+  font-family: "Baloo 2";
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  cursor: pointer;
+  align-items: center;
+  letter-spacing: 0.025em;
+  background: none
+}
+
+.signupbut:hover {
+  opacity: 80%;
+}
+
+.filters {
+  width: 14%;
+  margin-left: 5%;
+  margin-top: 3%;
+  flex: 1;
+}
+
+.eventCards {
+  flex: 3;
+
+  margin-right: 15%;
+}
+.parentevent::after {
+  content: "";
+  flex: 0 0 32%;
+  max-width: 480px;
+}
+
+.parentevent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  flex-shrink: 2.25;
+}
+
+.item {
+  margin-top: 50px;
+}
+
+.ParentFilterAndEvent {
+  display: flex;
+}

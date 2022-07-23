@@ -1,0 +1,65 @@
+.detailcard{
+     display: flex !important;
+     justify-content: center !important;
+
+     margin-top: 10%;
+
+}
+
+.detcard{
+     width: 365px;
+     height: 427px;
+     flex:2;
+     margin-left: 30%;
+     margin-top: 2%;
+}
+
+.deticons{
+     flex:2;
+}
+
+.iconImageName{
+
+     width: 71px;
+     height: 71px;
+
+     margin-left: 65px;
+     display: block;
+    
+}
+
+.iconText{
+     width: 352px;
+     height: 53px;
+
+     font-family: 'Baloo 2';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 38px;
+     line-height: 10px;
+
+
+     color: rgba(0, 0, 0, 0.6);
+}
+
+.idescription{
+     width: 352px;
+
+}
+
+.IImage{
+     width:352px;
+
+}
+
+.goers{
+     margin-top: 10%;
+}
+.spots{
+     margin-top: 10%;
+}
+
+.group-img {
+
+color: #00B2B2;
+}

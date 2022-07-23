@@ -1,0 +1,69 @@
+.filterParent{
+    display:flex;
+    flex-direction:column;
+
+}
+.parentFilterButton{
+    display:flex;
+    justfiy-content: flex-end;
+     gap:5px;
+
+}
+.filterByButtonParent{
+display:flex;
+flex: 1 1 0px;
+gap:5px;
+margin-top:15px;
+
+}
+
+.filterButton {
+
+      /* border: 2px solid black; */
+      background-color: white;
+      padding: 14px 28px;
+      font-size: 12px;
+      cursor: pointer;
+      border: 1px solid #00B2B2;
+      color: rgba(0, 0, 0, 0.6);      border-radius: 10px;
+      flex:50%;
+      width:104px;
+      white-space: normal;
+      font-weight:bold;
+        font-family: 'Baloo 2';
+          font-style: normal;
+
+}
+.locationInput{
+    width:100%;
+    width:200px;
+    margin-top:15px;
+    border:1px solid #00B2B2;
+    border-radius: 7px;
+    height:35px;
+}
+
+.priceInput{
+    width:75%;
+    width:150px;
+    margin-top:15px;
+    border:1px solid #00B2B2;
+    border-radius: 7px;
+    height:35px;
+
+}
+.locationInput::placeholder{
+    color: rgba(0, 0, 0, 0.6);
+    font-size:16px;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    padding-left:10px;
+}
+
+.priceInput::placeholder{
+    color: rgba(0, 0, 0, 0.6);
+    font-size:16px;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    padding-left:10px;
+}
